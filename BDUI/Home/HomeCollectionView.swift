@@ -2,7 +2,6 @@ import UIKit
 
 final class HomeCollectionView: UICollectionView {
    
-    
     init() {
         super.init(frame: .zero,
                    collectionViewLayout: UICollectionViewFlowLayout())
