@@ -22,7 +22,7 @@
 		70C84E0B2FD27044001EBC8A /* ReviewRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C84E0A2FD27044001EBC8A /* ReviewRatingView.swift */; };
 		70C84E0D2FD2708D001EBC8A /* UdemyBusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C84E0C2FD2708D001EBC8A /* UdemyBusinessView.swift */; };
 		70C84E0F2FD270C9001EBC8A /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C84E0E2FD270C9001EBC8A /* CategoriesView.swift */; };
-		70C84E112FD270F0001EBC8A /* MainBannerVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C84E102FD270F0001EBC8A /* MainBannerVIew.swift */; };
+		70C84E112FD270F0001EBC8A /* MainBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C84E102FD270F0001EBC8A /* MainBannerView.swift */; };
 		70C84E132FD27122001EBC8A /* PlaceholderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C84E122FD27122001EBC8A /* PlaceholderImageView.swift */; };
 		70C84E152FD27148001EBC8A /* FeaturedCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C84E142FD27148001EBC8A /* FeaturedCourseView.swift */; };
 		70C84E172FD271DE001EBC8A /* HomeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C84E162FD271DE001EBC8A /* HomeCollectionView.swift */; };
@@ -53,7 +53,7 @@
 		70C84E0A2FD27044001EBC8A /* ReviewRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRatingView.swift; sourceTree = "<group>"; };
 		70C84E0C2FD2708D001EBC8A /* UdemyBusinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyBusinessView.swift; sourceTree = "<group>"; };
 		70C84E0E2FD270C9001EBC8A /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
-		70C84E102FD270F0001EBC8A /* MainBannerVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBannerVIew.swift; sourceTree = "<group>"; };
+		70C84E102FD270F0001EBC8A /* MainBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBannerView.swift; sourceTree = "<group>"; };
 		70C84E122FD27122001EBC8A /* PlaceholderImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderImageView.swift; sourceTree = "<group>"; };
 		70C84E142FD27148001EBC8A /* FeaturedCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCourseView.swift; sourceTree = "<group>"; };
 		70C84E162FD271DE001EBC8A /* HomeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionView.swift; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 				70C84E0A2FD27044001EBC8A /* ReviewRatingView.swift */,
 				70C84E0C2FD2708D001EBC8A /* UdemyBusinessView.swift */,
 				70C84E0E2FD270C9001EBC8A /* CategoriesView.swift */,
-				70C84E102FD270F0001EBC8A /* MainBannerVIew.swift */,
+				70C84E102FD270F0001EBC8A /* MainBannerView.swift */,
 				70C84E122FD27122001EBC8A /* PlaceholderImageView.swift */,
 				70C84E142FD27148001EBC8A /* FeaturedCourseView.swift */,
 			);
@@ -288,7 +288,7 @@
 				70C84E042FD26F90001EBC8A /* Category.swift in Sources */,
 				70C84E252FD2760A001EBC8A /* FeaturedCourseCollectionViewCell.swift in Sources */,
 				70C84E0F2FD270C9001EBC8A /* CategoriesView.swift in Sources */,
-				70C84E112FD270F0001EBC8A /* MainBannerVIew.swift in Sources */,
+				70C84E112FD270F0001EBC8A /* MainBannerView.swift in Sources */,
 				70C84DFD2FD26E90001EBC8A /* HomeUIModelHelper.swift in Sources */,
 				70C84E092FD26FE9001EBC8A /* CourseView.swift in Sources */,
 				70C84DFB2FD26E50001EBC8A /* String+Extension.swift in Sources */,
