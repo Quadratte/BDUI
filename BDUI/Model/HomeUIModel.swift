@@ -2,6 +2,8 @@ import Foundation
 
 struct HomeUIModel: Hashable {
     
+    let sectionModels: [SectionModel]
+    
     struct SectionModel: Hashable {
         let section: Section
         let body: [Item]
@@ -24,5 +26,6 @@ struct HomeUIModel: Hashable {
         case categoriesScroller(id: String, tiles: [String])
         case featuredCourse(id: String, imageLink: String, title: String, author: String, raiting: Double, price: Decimal, String)
     }
+    
+    
 }
-

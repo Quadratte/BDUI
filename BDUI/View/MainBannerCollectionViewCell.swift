@@ -2,7 +2,7 @@ import SwiftUI
 
 final class MainBannerCollectionViewCell: UICollectionViewCell {
     
-    private var hostingController: UIHostingController<MainBannerView>!
+    private var hostingController: UIHostingController<MainBannerView>?
     
     func configure(
         imageLink: String,
