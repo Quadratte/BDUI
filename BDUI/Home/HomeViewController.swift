@@ -9,17 +9,30 @@ final class HomeViewController: UIViewController {
         view.backgroundColor = .orange
         setupView()
         setupConstraints()
+        
+        let uiModel = HomeUIModel(sectionModels: [
+            .init(section: .mainBanner(id: "123"), body: [
+                .mainBanner(id: "234x", imageLink: "", title: "Some title", caption: "Some caption")
+            ] )
+        ])
+ 
+        collectionView.setupUIModel(uiModel: uiModel)
     }
     
     private func setupView() {
         view.addSubview(collectionView)
-        collectionView.frame = self.view.frame
     }
 
     private func setupConstraints() {
-        NSLayoutConstraint.activate([
-        ])
-    }
+        
+        collectionView.translatesAutoresizingMaskIntoConstraints = false
+            NSLayoutConstraint.activate([
+                collectionView.topAnchor.constraint(equalTo: view.topAnchor),
+                collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+                collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+                collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+            ])
+        }
 
 }
 

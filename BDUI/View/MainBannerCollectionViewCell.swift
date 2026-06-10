@@ -13,15 +13,21 @@ final class MainBannerCollectionViewCell: UICollectionViewCell {
         let mainBannerView = MainBannerView(
             imageLink: imageLink,
             title: title,
-            captopn: caption)
+            caption: caption)
         
         hostingController = UIHostingController(rootView: mainBannerView)
         guard let hostingController = hostingController else { return }
         
-        addSubview(hostingController.view)
+        contentView.addSubview(hostingController.view)
         hostingController.view.clipsToBounds = true
+        hostingController.view.translatesAutoresizingMaskIntoConstraints = false
         
-        hostingController.view.frame = superview?.bounds ?? CGRect(x: 0, y: 0, width: 0, height: 0)
+        NSLayoutConstraint.activate([
+            hostingController.view.topAnchor.constraint(equalTo: contentView.topAnchor),
+            hostingController.view.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            hostingController.view.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
+            hostingController.view.bottomAnchor.constraint(equalTo: contentView.bottomAnchor)
+        ])
         
     }
 }
